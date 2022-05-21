@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(rgb(255, 213, 220),rgba(83, 237, 83, 0.52));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 90%;
+    margin: 40px auto;
+    background-color: aliceblue;
+}
+h3{
+    text-align: center;
+}
+table.list{
+    text-align: center;
+    width: 90%;
+    
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 0px 5px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(138, 134, 134);
+}
+
+input[type="text"],input[type="number"]{
+    width:60%;
+    padding:3px 5px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: rgb(255, 227, 227);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: rgb(91, 116, 243);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
+
